@@ -30,7 +30,7 @@ namespace connectPython.Controllers
             }
             catch (Exception e)
             {
-                throw e;
+                return 0;
             }
         }
     }
